@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import Calculator from './component/Calculator';
 import './App.css';
 
