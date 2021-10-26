@@ -1,13 +1,9 @@
+import { Component } from 'react';
 import Calculator from './component/Calculator';
 import './App.css';
-import { Component } from 'react';
 
-class App extends Component {
-  render() {
-    return(
-    <Calculator />
-    )
-  }
+function App() {
+  return <Calculator />;
 }
 
 export default App;
