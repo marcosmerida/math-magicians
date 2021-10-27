@@ -1,4 +1,4 @@
-/* eslint-disable react/prefer-stateless-function*/
+/* eslint-disable react/prefer-stateless-function */
 import './calculator.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
