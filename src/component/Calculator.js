@@ -4,12 +4,14 @@ import './calculator.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import calculate from '../logic/calculate';
+
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = { total: null, next: null, operation: null };
     this.CalcNumber = this.CalcNumber.bind(this);
   }
+  
   CalcNumber = (event) => {
     const resolved = calculate(this.state, event.target.innerHTML);
     this.setState(resolved);
