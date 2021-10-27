@@ -1,4 +1,5 @@
 /* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/destructuring-assignment */
 import './calculator.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
@@ -19,9 +20,9 @@ class Calculator extends React.Component {
       <div className="Calculator text-center">
         <div className="row text-white bg-secondary r2 h-100">
           <div className="col-12" id="Result">
-              {this.state.total}
-              {this.state.operation}
-              {this.state.next}
+            {this.state.total}
+            {this.state.operation}
+            {this.state.next}
           </div>
         </div>
         <div className="row h-100 r1">
