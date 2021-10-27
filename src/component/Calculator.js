@@ -2,94 +2,167 @@
 import './calculator.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-
+import calculate from '../logic/calculate';
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { total: null, next: null, operation: null };
+    this.CalcNumber = this.CalcNumber.bind(this);
+  }
+  CalcNumber = (event) => {
+    const resolved = calculate(this.state, event.target.innerHTML);
+    this.setState(resolved);
+    console.log(resolved);
+  };
+
   render() {
     return (
       <div className="Calculator text-center">
         <div className="row text-white bg-secondary r2 h-100">
           <div className="col-12" id="Result">
-            <span>0</span>
+            <span>
+              {this.state.total}{this.state.operation}{this.state.next}</span>
           </div>
         </div>
         <div className="row h-100 r1">
-          <div className="col-3 border border-white h-100" id="button1">
+          <div
+            className="col-3 border border-white h-100"
+            id="button1"
+            onClick={this.CalcNumber}
+          >
             AC
           </div>
-          <div className="col-3 border border-white h-100" id="button2">
+          <div
+            className="col-3 border border-white h-100"
+            id="button2"
+            onClick={this.CalcNumber}
+          >
             +/-
           </div>
-          <div className="col-3 border border-white h-100" id="button3">
+          <div
+            className="col-3 border border-white h-100"
+            id="button3"
+            onClick={this.CalcNumber}
+          >
             %
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
             id="button4"
+            onClick={this.CalcNumber}
           >
             ÷
           </div>
         </div>
         <div className="row r1 h-100">
-          <div className="col-3 border border-white h-100" id="button5">
+          <div
+            className="col-3 border border-white h-100"
+            id="button5"
+            onClick={this.CalcNumber}
+          >
             7
           </div>
-          <div className="col-3 border border-white h-100" id="button6">
+          <div
+            className="col-3 border border-white h-100"
+            id="button6"
+            onClick={this.CalcNumber}
+          >
             8
           </div>
-          <div className="col-3 border border-white h-100" id="button7">
+          <div
+            className="col-3 border border-white h-100"
+            id="button7"
+            onClick={this.CalcNumber}
+          >
             9
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
             id="button8"
+            onClick={this.CalcNumber}
           >
             x
           </div>
         </div>
         <div className="row h-100 r1">
-          <div className="col-3 border border-white h-100" id="button9">
+          <div
+            className="col-3 border border-white h-100"
+            id="button9"
+            onClick={this.CalcNumber}
+          >
             4
           </div>
-          <div className="col-3 border border-white h-100" id="button10">
+          <div
+            className="col-3 border border-white h-100"
+            id="button10"
+            onClick={this.CalcNumber}
+          >
             5
           </div>
-          <div className="col-3 border border-white h-100" id="button11">
+          <div
+            className="col-3 border border-white h-100"
+            id="button11"
+            onClick={this.CalcNumber}
+          >
             6
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
             id="button12"
+            onClick={this.CalcNumber}
           >
             -
           </div>
         </div>
         <div className="row h-100 r1">
-          <div className="col-3 border border-white h-100" id="button13">
+          <div
+            className="col-3 border border-white h-100"
+            id="button13"
+            onClick={this.CalcNumber}
+          >
             1
           </div>
-          <div className="col-3 border border-white h-100" id="button14">
+          <div
+            className="col-3 border border-white h-100"
+            id="button14"
+            onClick={this.CalcNumber}
+          >
             2
           </div>
-          <div className="col-3 border border-white h-100" id="button15">
+          <div
+            className="col-3 border border-white h-100"
+            id="button15"
+            onClick={this.CalcNumber}
+          >
             3
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
             id="button16"
+            onClick={this.CalcNumber}
           >
             +
           </div>
         </div>
         <div className="row h-100 r1">
-          <div className="col-6 border border-white h-100" id="button17">
+          <div
+            className="col-6 border border-white h-100"
+            id="button17"
+            onClick={this.CalcNumber}
+          >
             0
           </div>
-          <div className="col-3 border border-white h-100" id="button18">
+          <div
+            className="col-3 border border-white h-100"
+            id="button18"
+            onClick={this.CalcNumber}
+          >
             .
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
             id="button19"
+            onClick={this.CalcNumber}
           >
             =
           </div>
