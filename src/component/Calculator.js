@@ -19,11 +19,9 @@ class Calculator extends React.Component {
       <div className="Calculator text-center">
         <div className="row text-white bg-secondary r2 h-100">
           <div className="col-12" id="Result">
-            <span>
               {this.state.total}
               {this.state.operation}
               {this.state.next}
-            </span>
           </div>
         </div>
         <div className="row h-100 r1">
