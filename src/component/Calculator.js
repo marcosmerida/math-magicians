@@ -31,6 +31,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button1"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             AC
@@ -39,6 +40,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button2"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             +/-
@@ -47,6 +49,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button3"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             %
@@ -55,6 +58,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white bg-warning h-100"
             id="button4"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             ÷
@@ -65,6 +69,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button5"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             7
@@ -73,6 +78,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button6"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             8
@@ -81,6 +87,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button7"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             9
@@ -89,6 +96,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white bg-warning h-100"
             id="button8"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             x
@@ -99,6 +107,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button9"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             4
@@ -107,6 +116,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button10"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             5
@@ -115,6 +125,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button11"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             6
@@ -123,6 +134,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white bg-warning h-100"
             id="button12"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             -
@@ -133,6 +145,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button13"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             1
@@ -141,6 +154,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button14"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             2
@@ -149,6 +163,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button15"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             3
@@ -157,6 +172,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white bg-warning h-100"
             id="button16"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             +
@@ -167,6 +183,7 @@ class Calculator extends React.Component {
             className="col-6 border border-white h-100"
             id="button17"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             0
@@ -175,6 +192,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white h-100"
             id="button18"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             .
@@ -183,6 +201,7 @@ class Calculator extends React.Component {
             className="col-3 border border-white bg-warning h-100"
             id="button19"
             role="button"
+            tabIndex={0}
             onClick={this.CalcNumber}
           >
             =
