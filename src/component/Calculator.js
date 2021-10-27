@@ -1,7 +1,9 @@
 import './calculator.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 
-function Calculator() {
+class Calculator extends React.Component {
+  render(){
   return (
     <div className="Calculator text-center">
       <div className="row text-white bg-secondary r2 h-100">
@@ -78,6 +80,7 @@ function Calculator() {
       </div>
     </div>
   );
+}
 }
 
 export default Calculator;
