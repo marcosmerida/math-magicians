@@ -33,6 +33,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             AC
           </div>
@@ -42,6 +43,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             +/-
           </div>
@@ -51,6 +53,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             %
           </div>
@@ -60,6 +63,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             ÷
           </div>
@@ -71,6 +75,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             7
           </div>
@@ -80,6 +85,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             8
           </div>
@@ -89,6 +95,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             9
           </div>
@@ -98,6 +105,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             x
           </div>
@@ -109,6 +117,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             4
           </div>
@@ -118,6 +127,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             5
           </div>
@@ -127,6 +137,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             6
           </div>
@@ -136,6 +147,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             -
           </div>
@@ -147,6 +159,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             1
           </div>
@@ -156,6 +169,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             2
           </div>
@@ -165,6 +179,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             3
           </div>
@@ -174,6 +189,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             +
           </div>
@@ -185,6 +201,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             0
           </div>
@@ -194,6 +211,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             .
           </div>
@@ -203,6 +221,7 @@ class Calculator extends React.Component {
             role="button"
             tabIndex={0}
             onClick={this.CalcNumber}
+            onKeyDown={this.CalcNumber}
           >
             =
           </div>
