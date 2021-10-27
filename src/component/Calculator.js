@@ -29,28 +29,32 @@ class Calculator extends React.Component {
         <div className="row h-100 r1">
           <div
             className="col-3 border border-white h-100"
-            id="button1" role="button"
+            id="button1"
+            role="button"
             onClick={this.CalcNumber}
           >
             AC
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button2" role="button"
+            id="button2"
+            role="button"
             onClick={this.CalcNumber}
           >
             +/-
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button3" role="button"
+            id="button3"
+            role="button"
             onClick={this.CalcNumber}
           >
             %
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
-            id="button4" role="button"
+            id="button4"
+            role="button"
             onClick={this.CalcNumber}
           >
             ÷
@@ -59,28 +63,32 @@ class Calculator extends React.Component {
         <div className="row r1 h-100">
           <div
             className="col-3 border border-white h-100"
-            id="button5" role="button"
+            id="button5"
+            role="button"
             onClick={this.CalcNumber}
           >
             7
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button6" role="button"
+            id="button6"
+            role="button"
             onClick={this.CalcNumber}
           >
             8
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button7" role="button"
+            id="button7"
+            role="button"
             onClick={this.CalcNumber}
           >
             9
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
-            id="button8" role="button"
+            id="button8"
+            role="button"
             onClick={this.CalcNumber}
           >
             x
@@ -89,28 +97,32 @@ class Calculator extends React.Component {
         <div className="row h-100 r1">
           <div
             className="col-3 border border-white h-100"
-            id="button9" role="button"
+            id="button9"
+            role="button"
             onClick={this.CalcNumber}
           >
             4
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button10" role="button"
+            id="button10"
+            role="button"
             onClick={this.CalcNumber}
           >
             5
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button11" role="button"
+            id="button11"
+            role="button"
             onClick={this.CalcNumber}
           >
             6
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
-            id="button12" role="button"
+            id="button12"
+            role="button"
             onClick={this.CalcNumber}
           >
             -
@@ -119,28 +131,32 @@ class Calculator extends React.Component {
         <div className="row h-100 r1">
           <div
             className="col-3 border border-white h-100"
-            id="button13" role="button"
+            id="button13"
+            role="button"
             onClick={this.CalcNumber}
           >
             1
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button14" role="button"
+            id="button14"
+            role="button"
             onClick={this.CalcNumber}
           >
             2
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button15" role="button"
+            id="button15"
+            role="button"
             onClick={this.CalcNumber}
           >
             3
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
-            id="button16" role="button"
+            id="button16"
+            role="button"
             onClick={this.CalcNumber}
           >
             +
@@ -149,21 +165,24 @@ class Calculator extends React.Component {
         <div className="row h-100 r1">
           <div
             className="col-6 border border-white h-100"
-            id="button17" role="button"
+            id="button17"
+            role="button"
             onClick={this.CalcNumber}
           >
             0
           </div>
           <div
             className="col-3 border border-white h-100"
-            id="button18" role="button"
+            id="button18"
+            role="button"
             onClick={this.CalcNumber}
           >
             .
           </div>
           <div
             className="col-3 border border-white bg-warning h-100"
-            id="button19" role="button"
+            id="button19"
+            role="button"
             onClick={this.CalcNumber}
           >
             =
