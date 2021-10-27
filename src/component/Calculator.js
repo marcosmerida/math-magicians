@@ -11,7 +11,7 @@ class Calculator extends React.Component {
     this.state = { total: null, next: null, operation: null };
     this.CalcNumber = this.CalcNumber.bind(this);
   }
- 
+
   CalcNumber = (event) => {
     const resolved = calculate(this.state, event.target.innerHTML);
     this.setState(resolved);
