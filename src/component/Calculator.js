@@ -5,11 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [obj, setObj] = useState({ total: '0', next: null, operation: null });
+  const [obj, setObj] = useState({ total: null, next: null, operation: null });
   const { total, next, operation } = obj;
 
-  const CalcNumber = (e) => {
-    setObj(calculate(obj, e.target.innerHTML));
+  const CalcNumber = (event) => {
+    setObj(calculate(obj, event.target.innetHTML));
   };
 
   return (
@@ -223,6 +223,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Calculator;
