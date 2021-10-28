@@ -10,7 +10,7 @@ const Calculator = () => {
 
   const CalcNumber = (event) => {
     setObj(calculate(obj, event.target.innerHTML));
-  }
+  };
 
   return (
     <div className="Calculator text-center">
@@ -223,6 +223,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
