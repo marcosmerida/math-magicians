@@ -9,8 +9,8 @@ const Calculator = () => {
   const { total, next, operation } = obj;
 
   const CalcNumber = (event) => {
-    setObj(calculate(obj, event.target.innetHTML));
-  };
+    setObj(calculate(obj, event.target.innerHTML));
+  }
 
   return (
     <div className="Calculator text-center">
