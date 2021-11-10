@@ -9,7 +9,7 @@ const Navfun = () => {
         <h4>Math Magicians</h4>
       </div>
       <div>
-      <ul className="col-4 text-center m-auto">
+        <ul className="col-4 text-center m-auto">
           <li className="col-3">
             <Link to="/">Home</Link>
           </li>
@@ -20,9 +20,6 @@ const Navfun = () => {
             <Link to="/Quote">Quote</Link>
           </li>
         </ul>
-        </div>
-      <div>
-          
       </div>
     </Navbar>
   );

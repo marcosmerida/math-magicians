@@ -14,7 +14,7 @@ const Calculator = () => {
   return (
     <div className="row container">
       <div className="col-6">
-        <h2>Let's do some math!</h2>
+        <h2>Let&apos;s do some math!</h2>
       </div>
       <div className="Calculator text-center col-3">
         <div className="row text-white bg-secondary r2 h-100">

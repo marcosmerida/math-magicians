@@ -1,8 +1,8 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Calculator from './component/Calculator';
 import Navfun from './component/navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Homefun from './component/Home';
 import Quote from './component/Quote';
 
