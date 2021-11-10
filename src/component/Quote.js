@@ -1,10 +1,10 @@
 function Quote() {
   return (
-    <div className="text-center m-auto">
-      <h3>
+    <div className="text-left m-auto w-75">
+      <p className="h1">
         Mathematic is not about number, equations, computations, or algorithms,
         it is about understanding - Wiliam Paul Thurston
-      </h3>
+      </p>
     </div>
   );
 }
