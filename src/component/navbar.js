@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Navfun = () => {
+function Navfun() {
   return (
     <Navbar className="row border-bottom mb-5">
       <div className="col-9 ">
@@ -23,6 +23,6 @@ const Navfun = () => {
       </div>
     </Navbar>
   );
-};
+}
 
 export default Navfun;
